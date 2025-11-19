@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #e6f7ff;
+}
+
+.container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    color: #3bd772;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+}
