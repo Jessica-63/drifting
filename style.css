@@ -1,22 +1,22 @@
 body {
-    margin: 0;
-    font-family: 'Helvetica Neue', sans-serif;
-    background-color: #e6f7ff;
+  margin: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
-.container {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-h1 {
-    color: #3bd772;
-    font-size: 36px;
-    margin-bottom: 20px;
+.tilt-box {
+  transform: rotate(-6deg);
+  text-align: center;
+  color: #edb7b7;
 }
 
 img {
-    width: 500px;
-    max-width: 100%;
-    border-radius: 10px;
+  width: 260px;
+  border-radius: 12px;
+  transform: rotate(8deg);
+  margin: 20px 0;
 }
